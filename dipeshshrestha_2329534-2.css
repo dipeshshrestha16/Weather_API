@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Overpass:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .vid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.947);
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; 
+    margin-top: 90px;
+    align-items: center;
+    background: linear-gradient(135deg, #00e5fed0, #548a67d0);
+    box-shadow: 0 0 20px rgb(9, 110, 233);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color:#ffffff ;
+
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #fsearch {
+    width: 480px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4c60af;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;   
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Orbitron', sans-serif;
+
+  }
+.city, .icon{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 70px;
+}
+  
+  
